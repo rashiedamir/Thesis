@@ -5,9 +5,9 @@ date: "6/2/2021"
 output: html_document
 ---
 
-DATA WRANGLING
+DATA IMPORT & WRANGLING
 
-First, I'll create the dataset by merging two separate dataframes about student performance. I also check how many students are included
+First, I'll import the data and create the dataset by merging two separate dataframes about student performance. I also check how many students are included
 
 ```{r}
 d1=read.table("student-mat.csv",sep=";",header=TRUE)
